@@ -1,0 +1,238 @@
+/*
+Template Name: Jewelery
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+
+/*********************shop****************/
+.shop_1_left1 .form-check-input {
+   border-radius:0!important;
+   border-color:var(--primary);
+   width: 1.2em;
+    height: 1.2em; 
+    margin-top: 0.20em;
+	margin-right:10px;
+}
+.shop_1_left1 .form-check-input:focus {
+    border-color:var(--primary); 
+    outline: 0;
+    box-shadow: none;
+}
+.form-range {
+    background: var(--bs-white);
+    padding: 15px;
+}
+
+.shop_dt2 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--bs-white);
+    border:none;
+	background:var(--secondry);
+}
+.tab_click .nav-link {
+    border:none;
+    padding: 15px 40px;
+    color: var(--sedondry);
+    border:none;
+	background:var(--bg_primary_light);
+    transition: 0.3s;
+	border-radius:0;
+}
+.tab_click .nav-link:hover {
+    color: var(--bs-white);
+	background:var(--secondry);
+}
+
+.blockquote {
+    border-left: 5px solid var(--secondry);
+}
+.tags a {
+    display: block;
+    padding: 7px 18px;
+    margin: 0px 5px 8px 0px;
+    transition: 0.3s;
+    background: var(--bg_primary_light);
+}
+.tags a:hover {
+     background: var(--secondry);
+	  transition: 0.3s;
+	   color: var(--bs-white);
+}
+
+.shop_1_left .form-check{
+	margin-left:10px;
+}
+/*************** Lens Starts *************/
+
+    .gallery-container {
+     /* position: relative;*/
+      width: 100%;
+    }
+
+    .mySwiperMain {
+      width: 100%;
+      height: 500px;
+      position: relative;
+      overflow: hidden;
+    }
+    .mySwiperMain .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      cursor: crosshair;
+    }
+
+    /* Lens overlay */
+    .lens {
+      position: absolute;
+      border: 2px solid #007aff;
+      background-color: rgba(255, 255, 255, 0.3);
+      display: none;
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    /* Zoom box */
+    .zoom-box {
+      /* border: 1px solid #ccc; */
+      background-repeat: no-repeat;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 101%;
+      z-index: 10;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Thumbs slider */
+    .mySwiperThumbs {
+      width: 100%;
+      height: 120px;
+      margin-top: 15px;
+    }
+    .mySwiperThumbs .swiper-slide {
+      opacity: 0.5;
+      cursor: pointer;
+      transition: opacity 0.3s ease, border 0.3s ease;
+      box-sizing: border-box;
+    }
+    .mySwiperThumbs .swiper-slide-thumb-active,
+    .mySwiperThumbs .swiper-slide:hover {
+      opacity: 1;
+      border: 2px solid #007aff;
+    }
+    .mySwiperThumbs img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    /* Responsive behavior */
+    @media (max-width: 768px) {
+      .mySwiperThumbs,
+      .zoom-box,
+      .lens {
+        display: none !important;
+      }
+      .mySwiperMain {
+        height: auto;
+      }
+    }
+	
+	/*************** Lens ends *************/
+/*********************shop_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.shop_1_left {
+	padding-right:0!important;
+}
+.shop_1_right{
+	margin-top:30px;
+}
+.shop_1_right1_right{
+	margin-top:15px;
+}
+.shop_dt_right {
+	padding-left:0!important;
+	margin-top:20px;
+}
+.tab_click .nav-link {
+    padding: 15px 20px;
+    color: var(--sedondry);
+}
+.profile1_inner {
+	padding:20px 15px!important;
+}
+.profile3_inner{
+	padding:20px 15px!important;
+}
+.profile3_inner1_right{
+	margin-top:15px;
+}
+.blog_dt1ir {
+	margin-top:15px;
+	text-align:left!important;
+}
+.blog_dt2 ul img{
+	width:60px;
+	height:70px;
+}
+.contact_1_right {
+	padding-left:0!important;
+	margin-top:20px;
+}
+.contact_2_right {
+    padding-left:0!important;
+	margin-top:20px;
+}
+ }
+
+
+@media (min-width:576px) and (max-width:767px) {
+.blog_dt1ir {
+	margin-top:0;
+	text-align:right!important;
+}
+ }
+ 
+@media (min-width:768px) and (max-width:991px) {
+.shop_1_left {
+	padding-right:0!important;
+}
+.shop_1_left1 ul img{
+  width:50px;	
+}
+.shop_1_left1 .mt-2{
+  margin-top:0!important;	
+}
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+@media screen and (min-width : 1400px){
+
+.sale_1_left  p{
+	font-size:17px;
+}
+.sale_1_right {
+	margin-top:0!important;
+}
+.center_home_inner_left {
+	padding-left:100px!important;
+	padding-right:100px!important;
+}
+ }
+
+
+ 
